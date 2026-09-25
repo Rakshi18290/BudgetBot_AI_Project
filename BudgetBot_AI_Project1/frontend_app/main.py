@@ -165,7 +165,8 @@ with st.sidebar:
 # API CONFIGURATION – GEMINI
 # ============================================================================
 st.sidebar.markdown("### 🤖 AI Status")
-
+GEMINI_API_KEY = your_api_key 
+# use your api key in this place
 # Load Gemini API Key securely from Streamlit secrets or environment variables
 GEMINI_API_KEY = None
 try:
