@@ -161,13 +161,21 @@ with st.sidebar:
         # Fail silently if metrics are unavailable or malformed
         pass
     st.markdown("---")
-# ========================================================================
+# ============================================================================
 # API CONFIGURATION – GEMINI
-# ========================================================================
+# ============================================================================
 st.sidebar.markdown("### 🤖 AI Status")
 
-# Hardcoded Gemini API Key (recovered from previous valid session)
-GEMINI_API_KEY = "AIzaSyAep-JpQyKHxGWQTqwCvYAixr41NKxeKk4"
+# Load Gemini API Key securely from Streamlit secrets or environment variables
+GEMINI_API_KEY = None
+try:
+    if "GEMINI_API_KEY" in st.secrets:
+        GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
+except Exception:
+    pass
+
+if not GEMINI_API_KEY:
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 if GEMINI_API_KEY:
     st.sidebar.success("✅ AI Assistant: Enabled")

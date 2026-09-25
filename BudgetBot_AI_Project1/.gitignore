@@ -21,3 +21,8 @@ Thumbs.db
 .ipynb_checkpoints/
 .vscode/
 .idea/
+
+# Secrets & Local Environment Variables
+.streamlit/secrets.toml
+.env
+
