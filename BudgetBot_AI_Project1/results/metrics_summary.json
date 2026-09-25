@@ -1,0 +1,287 @@
+{
+  "Linear": {
+    "Rent": {
+      "RMSE": 2222.027,
+      "MAE": 1216.864,
+      "R\u00b2": 0.9493
+    },
+    "Groceries": {
+      "RMSE": 761.206,
+      "MAE": 445.077,
+      "R\u00b2": 0.9795
+    },
+    "Transport": {
+      "RMSE": 519.728,
+      "MAE": 299.946,
+      "R\u00b2": 0.9683
+    },
+    "Utilities": {
+      "RMSE": 645.662,
+      "MAE": 384.27,
+      "R\u00b2": 0.9371
+    },
+    "Healthcare": {
+      "RMSE": 333.51,
+      "MAE": 206.122,
+      "R\u00b2": 0.9621
+    },
+    "Education": {
+      "RMSE": 1591.258,
+      "MAE": 1021.164,
+      "R\u00b2": 0.773
+    },
+    "Eating_Out": {
+      "RMSE": 540.5,
+      "MAE": 305.337,
+      "R\u00b2": 0.8681
+    },
+    "Entertainment": {
+      "RMSE": 508.229,
+      "MAE": 312.703,
+      "R\u00b2": 0.8928
+    },
+    "Loan_Repayment": {
+      "RMSE": 0.0,
+      "MAE": 0.0,
+      "R\u00b2": 1.0
+    },
+    "Insurance": {
+      "RMSE": 500.923,
+      "MAE": 311.257,
+      "R\u00b2": 0.9009
+    },
+    "Miscellaneous": {
+      "RMSE": 333.039,
+      "MAE": 204.041,
+      "R\u00b2": 0.8611
+    }
+  },
+  "DecisionTree": {
+    "Rent": {
+      "RMSE": 1896.195,
+      "MAE": 64.019,
+      "R\u00b2": 0.9631
+    },
+    "Groceries": {
+      "RMSE": 920.533,
+      "MAE": 486.392,
+      "R\u00b2": 0.97
+    },
+    "Transport": {
+      "RMSE": 1014.755,
+      "MAE": 405.042,
+      "R\u00b2": 0.879
+    },
+    "Utilities": {
+      "RMSE": 865.275,
+      "MAE": 471.239,
+      "R\u00b2": 0.887
+    },
+    "Healthcare": {
+      "RMSE": 531.546,
+      "MAE": 283.257,
+      "R\u00b2": 0.9037
+    },
+    "Education": {
+      "RMSE": 1144.531,
+      "MAE": 559.474,
+      "R\u00b2": 0.8825
+    },
+    "Eating_Out": {
+      "RMSE": 684.635,
+      "MAE": 404.227,
+      "R\u00b2": 0.7883
+    },
+    "Entertainment": {
+      "RMSE": 759.297,
+      "MAE": 426.649,
+      "R\u00b2": 0.7606
+    },
+    "Loan_Repayment": {
+      "RMSE": 166.395,
+      "MAE": 5.609,
+      "R\u00b2": 0.9984
+    },
+    "Insurance": {
+      "RMSE": 749.839,
+      "MAE": 419.703,
+      "R\u00b2": 0.778
+    },
+    "Miscellaneous": {
+      "RMSE": 504.922,
+      "MAE": 283.711,
+      "R\u00b2": 0.6808
+    }
+  },
+  "RandomForest": {
+    "Rent": {
+      "RMSE": 1863.15,
+      "MAE": 61.289,
+      "R\u00b2": 0.9644
+    },
+    "Groceries": {
+      "RMSE": 965.243,
+      "MAE": 384.268,
+      "R\u00b2": 0.9671
+    },
+    "Transport": {
+      "RMSE": 816.027,
+      "MAE": 313.112,
+      "R\u00b2": 0.9217
+    },
+    "Utilities": {
+      "RMSE": 625.835,
+      "MAE": 360.359,
+      "R\u00b2": 0.9409
+    },
+    "Healthcare": {
+      "RMSE": 400.026,
+      "MAE": 215.437,
+      "R\u00b2": 0.9455
+    },
+    "Education": {
+      "RMSE": 911.373,
+      "MAE": 414.676,
+      "R\u00b2": 0.9255
+    },
+    "Eating_Out": {
+      "RMSE": 505.846,
+      "MAE": 310.249,
+      "R\u00b2": 0.8844
+    },
+    "Entertainment": {
+      "RMSE": 582.845,
+      "MAE": 327.228,
+      "R\u00b2": 0.859
+    },
+    "Loan_Repayment": {
+      "RMSE": 89.914,
+      "MAE": 3.94,
+      "R\u00b2": 0.9995
+    },
+    "Insurance": {
+      "RMSE": 576.349,
+      "MAE": 324.889,
+      "R\u00b2": 0.8688
+    },
+    "Miscellaneous": {
+      "RMSE": 357.048,
+      "MAE": 211.836,
+      "R\u00b2": 0.8404
+    }
+  },
+  "XGBoost": {
+    "Rent": {
+      "RMSE": 2871.476,
+      "MAE": 179.748,
+      "R\u00b2": 0.9154
+    },
+    "Groceries": {
+      "RMSE": 1629.062,
+      "MAE": 403.589,
+      "R\u00b2": 0.9061
+    },
+    "Transport": {
+      "RMSE": 1204.312,
+      "MAE": 317.441,
+      "R\u00b2": 0.8296
+    },
+    "Utilities": {
+      "RMSE": 873.022,
+      "MAE": 365.181,
+      "R\u00b2": 0.885
+    },
+    "Healthcare": {
+      "RMSE": 541.839,
+      "MAE": 220.16,
+      "R\u00b2": 0.9
+    },
+    "Education": {
+      "RMSE": 1276.373,
+      "MAE": 435.593,
+      "R\u00b2": 0.8539
+    },
+    "Eating_Out": {
+      "RMSE": 536.703,
+      "MAE": 308.081,
+      "R\u00b2": 0.8699
+    },
+    "Entertainment": {
+      "RMSE": 727.378,
+      "MAE": 327.008,
+      "R\u00b2": 0.7803
+    },
+    "Loan_Repayment": {
+      "RMSE": 315.579,
+      "MAE": 27.974,
+      "R\u00b2": 0.9943
+    },
+    "Insurance": {
+      "RMSE": 710.101,
+      "MAE": 325.338,
+      "R\u00b2": 0.8009
+    },
+    "Miscellaneous": {
+      "RMSE": 380.698,
+      "MAE": 211.112,
+      "R\u00b2": 0.8185
+    }
+  },
+  "XGBoost (Tuned)": {
+    "Rent": {
+      "RMSE": 2855.876,
+      "MAE": 251.801,
+      "R\u00b2": 0.9163
+    },
+    "Groceries": {
+      "RMSE": 1614.626,
+      "MAE": 401.606,
+      "R\u00b2": 0.9078
+    },
+    "Transport": {
+      "RMSE": 1193.927,
+      "MAE": 317.492,
+      "R\u00b2": 0.8325
+    },
+    "Utilities": {
+      "RMSE": 850.755,
+      "MAE": 361.748,
+      "R\u00b2": 0.8908
+    },
+    "Healthcare": {
+      "RMSE": 541.147,
+      "MAE": 219.87,
+      "R\u00b2": 0.9002
+    },
+    "Education": {
+      "RMSE": 1263.017,
+      "MAE": 437.064,
+      "R\u00b2": 0.857
+    },
+    "Eating_Out": {
+      "RMSE": 539.7,
+      "MAE": 307.458,
+      "R\u00b2": 0.8685
+    },
+    "Entertainment": {
+      "RMSE": 716.729,
+      "MAE": 323.853,
+      "R\u00b2": 0.7867
+    },
+    "Loan_Repayment": {
+      "RMSE": 390.234,
+      "MAE": 46.329,
+      "R\u00b2": 0.9913
+    },
+    "Insurance": {
+      "RMSE": 692.766,
+      "MAE": 322.048,
+      "R\u00b2": 0.8105
+    },
+    "Miscellaneous": {
+      "RMSE": 371.026,
+      "MAE": 207.36,
+      "R\u00b2": 0.8276
+    }
+  }
+}

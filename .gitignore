@@ -1,0 +1,24 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Large model artifacts (>100MB, excluded for GitHub limits)
+*.pkl
+models/best_model.pkl
+models/rf_multioutput.pkl
+
+# Operating System & IDE files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.ipynb_checkpoints/
+.vscode/
+.idea/
